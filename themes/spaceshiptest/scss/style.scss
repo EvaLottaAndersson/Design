@@ -6,11 +6,12 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables';
+@import 'report';
 
 @import 'blockquotes';
 @import 'code';
 
-@import 'mobile-nav';
+@import 'mobile';
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 

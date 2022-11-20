@@ -3,7 +3,7 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home Page
+
 ==========================
 
 <img src="assets/img/jag.jpg" width=200 alt="" />

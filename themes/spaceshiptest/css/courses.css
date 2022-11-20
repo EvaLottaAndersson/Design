@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 2em;
+    font-family: sans-serif;
+    padding: 2em;
+}
+
+.box {
+    width: 7em;
+    height: 7em;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fcfcfc;
+}
+
+.GIT-box {
+    background-color: #ff4136;
+}
+
+.PHP-box {
+    background-color: #0074d9;
+}
+
+.CSS-box {
+    background-color: #d9009f;
+}
+
+.HTML-box {
+    background-color: #4678a4;
+}
+
+
+.SQL-box {
+    background-color: #2ecc40;
+}
+
+.JS-box {
+    background-color: #000;
+}
+
+.Python-box {
+    color: #333;
+}

@@ -1,0 +1,91 @@
+.landingpage {
+    display: grid;
+    grid-template-columns: 20em 20em 20em auto;
+    grid-template-rows: 7em 13em 14em 13em 10em;
+    gap: 2em 2em;
+}
+
+.landingpage h1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 1;
+    grid-column: span 3;
+    justify-self: center;
+}
+
+main {
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1em;
+    font-family: sans-serif;
+    padding: 2em;
+}
+
+.box {
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.git-box {
+    background-color: #ff4136;
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+}
+
+.php-box {
+    background-color: #0074d9;
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+}
+
+.css-box {
+    background-color: #d9009f;
+    grid-column: 3 / 3;
+    grid-row: 2 / 2;
+}
+
+.html-box {
+    background-color: #4678a4;
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+}
+
+.sql-box {
+    background-color: #2ecc40;
+    grid-column: 2 / 2;
+    grid-row: 3 / 3;
+}
+
+.js-box {
+    background-color: rgb(68, 92, 74);
+    grid-column: 3 / 3;
+    grid-row: 3 / 3;
+}
+
+.python-box {
+    background-color: rgb(192, 99, 99);
+    grid-column: 1 / 1;
+    grid-row: 4 / 4;
+}
+
+.aside {
+    grid-column: 1 / 1;
+    grid-row: 2 / 3;
+}
+
+.text {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+}
