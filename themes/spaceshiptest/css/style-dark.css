@@ -6625,31 +6625,31 @@ h1 {
 }
 
 body {
-  background-color: rgb(225, 225, 220);
+  background-color: #666;
+}
+
+img {
+  border: 5px solid #555;
 }
 
 * {
   color: #000;
 }
 
-.picture {
-  border: 7px #b3b4ad;
-}
-
 .color-box {
-  background-color: rgb(202, 202, 200);
+  background-color: rgb(145, 143, 143);
   grid-column: 1/1;
   grid-row: 2/2;
 }
 
 .load-box {
-  background-color: rgb(179, 179, 179);
+  background-color: rgb(146, 144, 144);
   grid-column: 2/2;
   grid-row: 2/2;
 }
 
 .design-box {
-  background-color: rgb(174, 174, 171);
+  background-color: rgb(123, 123, 123);
   grid-column: 3/3;
   grid-row: 2/2;
 }

@@ -1,5 +1,4 @@
 ---
-Logo: image/cat.png
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
@@ -8,4 +7,10 @@ Social:
     - title: Link to facebook
       url: https://www.facebook.com/
       icon: fab fa-facebook
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

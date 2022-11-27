@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    font-size: 2em;
-    font-family: sans-serif;
-    padding: 2em;
-}
-
 .box {
     width: 7em;
     height: 7em;
@@ -18,6 +12,18 @@ body {
     align-items: center;
     justify-content: center;
     color: #fcfcfc;
+}
+
+.color-box {
+    background-color: #ff4136;
+}
+
+.load-box {
+    background-color: #0074d9;
+}
+
+.design-box {
+    background-color: #d9009f;
 }
 
 .GIT-box {

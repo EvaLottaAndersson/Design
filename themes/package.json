@@ -9,9 +9,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass spaceshiptest/scss/style.scss spaceshiptest/css/style.css --no-source-map",
-    "style-min": "sass spaceshiptest/scss/style.scss spaceshiptest/css/style.min.css --no-source-map --style compressed"
-  },
+    "watch": "sass spaceshiptest/scss/style.scss:spaceshiptest/css/style.css spaceshiptest/scss/style-dark.scss:spaceshiptest/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass spaceshiptest/scss/style.scss:spaceshiptest/css/style.min.css spaceshiptest/scss/style-dark.scss:spaceshiptest/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass spaceshiptest/scss/style-dark.scss spaceshiptest/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass spaceshiptest/scss/style-dark.scss spaceshiptest/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass spaceshiptest/scss/style.scss spaceshiptest/css/style.css --no-source-map",
+    "style-light-min": "sass spaceshiptest/scss/style.scss spaceshiptest/css/style.min.css --no-source-map --style compressed"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",

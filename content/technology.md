@@ -2,7 +2,6 @@
 Title: Technologies
 Description: This is my technology page.
 Template: technologies
-Sidebar: false
 ---
 
 <h1>Technologies</h1>

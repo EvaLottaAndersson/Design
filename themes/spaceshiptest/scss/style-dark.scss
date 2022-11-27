@@ -12,6 +12,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'code';
 
 @import 'mobile';
+@import 'variables-dark';
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
@@ -31,12 +32,12 @@ body {
     background-color: $background-color;
 }
 
-* {
-    color: $font-color;
+img {
+    border: 5px solid #555;
 }
 
-.picture {
-    border: 7px $borderColor;
+* {
+    color: $font-color;
 }
 
 .color-box {
