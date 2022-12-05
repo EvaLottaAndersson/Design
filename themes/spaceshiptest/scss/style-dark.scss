@@ -10,9 +10,10 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import 'blockquotes';
 @import 'code';
-
+@import 'gallery';
 @import 'mobile';
 @import 'variables-dark';
+@import 'mobilegallery';
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
@@ -60,4 +61,11 @@ img {
 
 .main {
     margin: 0 auto;
+}
+
+.spreadsheet {
+    display: block;
+    margin: 0 auto;
+    width: 40em;
+    height: 45em;
 }

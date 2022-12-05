@@ -13,7 +13,17 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import 'mobile';
 
+@import 'gallery';
+@import 'mobilegallery';
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+.spreadsheet {
+    display: block;
+    margin: 0 auto;
+    width: 40rem;
+    height: 45rem;
+}
 
 * {
     font-family: 'Montserrat', sans-serif;
@@ -56,3 +66,4 @@ body {
 .main {
     margin: 0 auto;
 }
+

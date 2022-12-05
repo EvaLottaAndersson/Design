@@ -1,4 +1,5 @@
-@media (max-width: 767px) {
+@media (max-width: 668px) {
+
     .nav {
         ul {
             display: flex;
@@ -10,17 +11,18 @@
         li { display: inline-block; }
     }
 
-    .landingpage {
-        display: grid;
-        grid-column: 1;
-        grid-row: 5em 7em 7em 7em 7em 7em 7em 7em;
-    }
-
     .landingpage h1 {
         grid-column: 1 / 1;
         grid-row: 1 / 1;
         grid-column: span 1;
         justify-self: center;
+    }
+
+    .landingpage {
+        display: grid;
+        grid-template-columns: 20em;
+        grid-template-rows: 5em 7em 7em 7em 7em 7em 7em 7em 7em;
+        gap: 2em;
     }
 
     .git-box {
@@ -73,5 +75,29 @@
     .aside {
         visibility: hidden;
     }
-
+    
+    main {
+        max-width: 70rem;
+        margin: 0 auto;
+        padding: 1em;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-size: 1em;
+        font-family: sans-serif;
+        padding: 2em;
+    }
+    
+    .box {
+        border: 1px solid #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
