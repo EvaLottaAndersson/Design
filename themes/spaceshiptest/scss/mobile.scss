@@ -1,5 +1,4 @@
 @media (max-width: 668px) {
-
     .nav {
         ul {
             display: flex;
@@ -26,43 +25,43 @@
     }
 
     .git-box {
-        background-color: #ff4136;
+        background-color: #320402;
         grid-column: 1 / 1;
         grid-row: 8 / 8;
     }
 
     .php-box {
-        background-color: #0074d9;
+        background-color: #042c4f;
         grid-column: 1 / 1;
         grid-row: 2 / 2;
     }
 
     .css-box {
-        background-color: #d9009f;
+        background-color: #540940;
         grid-column: 1 / 1;
         grid-row: 3 / 3;
     }
 
     .html-box {
-        background-color: #4678a4;
+        background-color: #1e3243;
         grid-column: 1 / 1;
         grid-row: 4 / 4;
     }
 
     .sql-box {
-        background-color: #2ecc40;
+        background-color: #0a2e0e;
         grid-column: 1 / 1;
         grid-row: 5 / 5;
     }
 
     .js-box {
-        background-color: rgb(68, 92, 74);
+        background-color: rgb(35, 46, 37);
         grid-column: 1 / 1;
         grid-row: 6 / 6;
     }
 
     .python-box {
-        background-color: rgb(192, 99, 99);
+        background-color: rgb(53, 28, 28);
         grid-column: 1 / 1;
         grid-row: 7 / 7;
     }

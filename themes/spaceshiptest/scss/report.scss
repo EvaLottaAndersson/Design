@@ -12,12 +12,6 @@
     justify-self: center;
 }
 
-main {
-    max-width: 70rem;
-    margin: 0 auto;
-    padding: 1em;
-}
-
 h1 {
     grid-column: 1 / 4;
     grid-row: 1 / 1;
@@ -34,7 +28,6 @@ h1 {
 body {
     font-size: 1em;
     font-family: sans-serif;
-    padding: 2em;
 }
 
 .box {
@@ -45,43 +38,43 @@ body {
 }
 
 .git-box {
-    background-color: #ff4136;
+    background-color: #410502;
     grid-column: 1 / 1;
     grid-row: 2 / 2;
 }
 
 .php-box {
-    background-color: #0074d9;
+    background-color: #012341;
     grid-column: 2 / 2;
     grid-row: 2 / 2;
 }
 
 .css-box {
-    background-color: #d9009f;
+    background-color: #4b0438;
     grid-column: 3 / 3;
     grid-row: 2 / 2;
 }
 
 .html-box {
-    background-color: #4678a4;
+    background-color: #0f1f2d;
     grid-column: 1 / 1;
     grid-row: 3 / 3;
 }
 
 .sql-box {
-    background-color: #2ecc40;
+    background-color: #032d08;
     grid-column: 2 / 2;
     grid-row: 3 / 3;
 }
 
 .js-box {
-    background-color: rgb(68, 92, 74);
+    background-color: rgb(2, 49, 14);
     grid-column: 3 / 3;
     grid-row: 3 / 3;
 }
 
 .python-box {
-    background-color: rgb(192, 99, 99);
+    background-color: rgb(39, 14, 14);
     grid-column: 1 / 1;
     grid-row: 4 / 4;
 }

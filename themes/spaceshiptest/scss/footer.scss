@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: $footer-color;
+    align-items: center;
+    border: 5px solid $footer-accent;
+}
+
+.social a {
+    color: $font-alternative-color;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.footer p {
+    color: $font-color-head;
+}

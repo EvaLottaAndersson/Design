@@ -8,6 +8,10 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'variables';
 @import 'report';
 
+@import 'header';
+@import 'body';
+@import 'footer';
+
 @import 'blockquotes';
 @import 'code';
 
@@ -39,10 +43,6 @@ h1 {
 
 body {
     background-color: $background-color;
-}
-
-* {
-    color: $font-color;
 }
 
 .color-box {

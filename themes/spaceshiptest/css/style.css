@@ -6436,8 +6436,8 @@ template {
   justify-self: center;
 }
 
-main {
-  max-width: 70rem;
+.main {
+  max-width: 50rem;
   margin: 0 auto;
   padding: 1em;
 }
@@ -6458,7 +6458,6 @@ h1 {
 body {
   font-size: 1em;
   font-family: sans-serif;
-  padding: 2em;
 }
 
 .box {
@@ -6520,6 +6519,14 @@ body {
   grid-row: 2/3;
 }
 
+.header {
+  background-color: rgb(250, 250, 246);
+}
+
+.site-header .title a {
+  text-decoration: none;
+}
+
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -6565,16 +6572,17 @@ pre code {
   .nav li {
     display: inline-block;
   }
-  .landingpage {
-    display: grid;
-    grid-template-columns: 20em;
-    grid-row: 5em 7em 7em 7em 7em 7em 7em 7em 7em;
-  }
   .landingpage h1 {
     grid-column: 1/1;
     grid-row: 1/1;
     grid-column: span 1;
     justify-self: center;
+  }
+  .landingpage {
+    display: grid;
+    grid-template-columns: 20em;
+    grid-template-rows: 5em 7em 7em 7em 7em 7em 7em 7em 7em;
+    gap: 2em;
   }
   .git-box {
     background-color: #ff4136;
@@ -6618,22 +6626,10 @@ pre code {
   .aside {
     visibility: hidden;
   }
-  img,
-  embed,
-  object,
-  video {
-    max-width: 100%;
-  }
   main {
     max-width: 70rem;
     margin: 0 auto;
     padding: 1em;
-  }
-  h1 {
-    grid-column: 1/4;
-    grid-row: 1/1;
-    grid-column: span 3;
-    justify-self: center;
   }
   * {
     margin: 0;
@@ -6651,50 +6647,6 @@ pre code {
     align-items: center;
     justify-content: center;
   }
-  .vinter-box {
-    grid-column: 1/1;
-    grid-row: 2/2;
-  }
-  .vinter5-box {
-    grid-column: 1/1;
-    grid-row: 3/3;
-  }
-  .vinter4-box {
-    grid-column: 1/1;
-    grid-row: 4/4;
-  }
-  .vinter3-box {
-    grid-column: 1/1;
-    grid-row: 5/5;
-  }
-  .vinter2-box {
-    grid-column: 1/1;
-    grid-row: 6/6;
-  }
-  .vinter1-box {
-    grid-column: 1/1;
-    grid-row: 7/7;
-  }
-  .vinter-video {
-    grid-column: 1/1;
-    grid-row: 8/8;
-  }
-  .vinter-video {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-  }
-  .vinter-video iframe,
-  .vinter-video object,
-  .vinter-video embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
 }
 img,
 embed,
@@ -6703,9 +6655,16 @@ video {
   max-width: 100%;
 }
 
-.gallery h1 {
+.landingpage-gallery {
+  display: grid;
+  grid-template-columns: 20em 20em 20em;
+  grid-template-rows: 7em 20em 20em 20em;
+  gap: 2em 2em;
+}
+
+.gallerieth1 {
   grid-column: 1/4;
-  grid-row: 1/1;
+  grid-row: 1/2;
   grid-column: span 3;
   justify-self: center;
 }
@@ -6718,7 +6677,7 @@ main {
 
 h1 {
   grid-column: 1/4;
-  grid-row: 1/1;
+  grid-row: 1/2;
   grid-column: span 3;
   justify-self: center;
 }
@@ -6744,37 +6703,37 @@ body {
 
 .vinter-box {
   grid-column: 1/1;
-  grid-row: 2/2;
+  grid-row: 2/3;
 }
 
 .vinter5-box {
   grid-column: 2/2;
-  grid-row: 2/2;
+  grid-row: 2/3;
 }
 
 .vinter4-box {
   grid-column: 3/3;
-  grid-row: 2/2;
+  grid-row: 2/3;
 }
 
 .vinter3-box {
   grid-column: 1/1;
-  grid-row: 3/3;
+  grid-row: 3/4;
 }
 
 .vinter2-box {
   grid-column: 2/2;
-  grid-row: 3/3;
+  grid-row: 3/4;
 }
 
 .vinter1-box {
   grid-column: 3/3;
-  grid-row: 3/3;
+  grid-row: 3/4;
 }
 
 .vinter-video {
   grid-column: 2/2;
-  grid-row: 5/5;
+  grid-row: 4/5;
 }
 
 .vinter-video {
@@ -6795,6 +6754,70 @@ body {
   height: 100%;
 }
 
+@media (max-width: 668px) {
+  .landingpage-gallery {
+    display: grid;
+    grid-template-columns: 20em;
+    grid-template-rows: 7em 20em 20em 20em 20em 20em 20em 20em 20em;
+    gap: 2em;
+  }
+  .gallerieth1 {
+    grid-column: 1/1;
+    grid-row: 1/2;
+    grid-column: span 1;
+    justify-self: center;
+  }
+  img,
+  embed,
+  object,
+  video {
+    max-width: 100%;
+  }
+  .vinter-box {
+    grid-column: 1/1;
+    grid-row: 2/3;
+  }
+  .vinter5-box {
+    grid-column: 1/1;
+    grid-row: 3/4;
+  }
+  .vinter4-box {
+    grid-column: 1/1;
+    grid-row: 4/5;
+  }
+  .vinter3-box {
+    grid-column: 1/1;
+    grid-row: 5/6;
+  }
+  .vinter2-box {
+    grid-column: 1/1;
+    grid-row: 6/7;
+  }
+  .vinter1-box {
+    grid-column: 1/1;
+    grid-row: 7/8;
+  }
+  .vinter-video {
+    grid-column: 1/1;
+    grid-row: 8/9;
+  }
+  .vinter-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .vinter-video iframe,
+  .vinter-video object,
+  .vinter-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
 .spreadsheet {
   display: block;
   margin: 0 auto;

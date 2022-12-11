@@ -73,5 +73,5 @@ Template: gallery
 </div>
 
 <div class="vinter-video">
-    <iframe src="https://www.youtube.com/embed/KTmatjyd4KM" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/KTmatjyd4KM" title="myVideo" frameborder="0" allowfullscreen></iframe>
 </div>
